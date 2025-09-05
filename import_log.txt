@@ -1,0 +1,246 @@
+----- POST ID: 2695 -----
+<!-- wp:acf/calculator {"name":"acf/calculator"} /-->
+<!-- wp:acf/package {"name":"acf/package","data":{
+    "badge": "Упаковка",
+    "heading": "Варианты упаковки",
+    "packaging_options_0_image": 534,
+    "packaging_options_0_title": "",
+    "packaging_options_0_description": "",
+    "packaging_options_1_image": 535,
+    "packaging_options_2_image": 532,
+    "packaging_options_3_image": 533
+}} /-->
+<!-- wp:acf/container {"name":"acf/container","data":{
+    "field_container_badge":"Контейнеры",
+    "field_container_heading":"Варианты контейнеров",
+    "field_container_options":{
+        "68ba0fef23241":{
+            "field_container_option_image":"3577",
+            "field_container_option_title":"Контейнер 20 футов",
+            "field_container_option_description":"Компактный и универсальный, подходит для транспортировки различных грузов"},
+        "68ba0fd123240":{
+            "field_container_option_image":"3576",
+            "field_container_option_title":"Контейнер 40 футов",
+            "field_container_option_description":"Увеличенная вместимость для перевозки большого объема товаров на дальние расстояния."},
+        "row-0":{
+            "field_container_option_image":"3578",
+            "field_container_option_title":"Контейнер 40 футов High Cube",
+            "field_container_option_description":"Высокий вариант контейнера обеспечивает дополнительное пространство для объемных грузов."}
+        }
+}} /-->
+<!-- wp:acf/price {"name":"acf/price","data":{
+    "badge": "Прайс-лист",
+    "heading": "Доставка из Китая цены",
+    "delivery_options_0_title": "blocks.price.delivery_options_0_title":"Авиадоставка",
+"blocks.price.delivery_options_1_title":"Морская доставка",
+"blocks.price.delivery_options_2_title":"Железнодорожная доставка",
+"blocks.price.delivery_options":3,
+    "delivery_options_0_description": "blocks.price.delivery_options_0_description":"Быстрая доставка за 7-14 дней. Преимущества: быстрая перевозка, высокая надежность. Недостатки: более высокая цена, минимальный вес 10 кг.",
+"blocks.price.delivery_options_1_description":"Экономичный способ доставки за 40-55 дней. Преимущества: низкая цена, подходит для больших объемов. Недостатки: долгий срок доставки, минимум 50 кг.",
+"blocks.price.delivery_options_2_description":"Доставка в среднем за 15-20 дней. Преимущества: баланс между стоимостью и сроками, надежность. Недостатки: доступна не для всех типов грузов, стоимость может варьироваться, подробнее уточняйте у менеджера.",
+"blocks.price.delivery_options":3,
+    "delivery_options_0_price": "blocks.price.delivery_options_0_price":"от $15/кг",
+"blocks.price.delivery_options_1_price":"от $2,2/кг",
+"blocks.price.delivery_options_2_price":"от $8/кг",
+"blocks.price.delivery_options":3
+}} /-->
+<!-- wp:acf/docs-text {"name":"acf/docs-text","data":{
+    "heading": "Документы для перевозки",
+    "documents_list": "<ul><li>Коммерческий инвойс</li><li>Упаковочный лист</li><li>Договор перевозки</li><li>Сертификаты соответствия и разрешения на экспорт/импорт</li></ul>",
+    "document_images_0_document_image": 539,
+    "document_images_0_document_alt": "Документ на перевозку",
+    "document_images_1_document_image": 540,
+    "document_images_1_document_alt": "Документ на перевозку",
+    "document_images_2_document_image": 541,
+    "document_images_2_document_alt": "Документ на перевозку",
+    "document_images_3_document_image": 542,
+    "document_images_3_document_alt": "Документ на перевозку",
+    "document_images":4,
+    "_document_images":"field_68489bb482b7f"
+}} /-->
+<!-- wp:acf/what-in-price {"name":"acf/what-in-price","data":{
+    "heading": "",
+    "description": "",
+    "list_title": "",
+    "services_list": ""
+}} /-->
+<!-- wp:acf/simple-image {"name":"acf/simple-image","data":{
+    "field_simple_image": 543,
+    "field_simple_image_height":"350"
+}} /-->
+<!-- wp:acf/coop-state {"name":"acf/coop-state","data":{
+    "field_cooperation_heading": "Этапы работы",
+    "sections_0_section_title": "blocks.coop_state.sections_0_title":"Заявка и расчет",
+"blocks.coop_state.sections_1_title":"Организация выполнения и доставка",
+"blocks.coop_state.sections":2,
+    "sections_0_section_items": "blocks.coop_state.sections_0_items":"<ul><li>Заполните форму заявки на сайте или свяжитесь с менеджером по телефону.</li><li>Предоставьте подробную информацию о грузе: вес, габариты, тип товара, требуемые сроки.</li><li>Получите предварительный расчет стоимости и сроков доставки.</li><li>Обсудите условия сотрудничества и подтвердите заказ.</li></ul>",
+"blocks.coop_state.sections_1_items":"<ul><li>Оформите необходимые документы и договор.</li><li>Передайте груз в пункт отправления или организуйте его транспортировку.</li><li>Следите за статусом доставки через личный кабинет или по контактам менеджера.</li><li>По прибытии груза получите его и проведите финальную проверку.</li></ul>",
+"blocks.coop_state.sections":2,
+    "sections":2,
+    "_sections":"field_cooperation_sections"
+}} /-->
+
+----- POST ID: 2695 -----
+<!-- wp:acf/calculator {"name":"acf/calculator"} /-->
+<!-- wp:acf/package {"name":"acf/package","data":{
+    "badge": "Упаковка",
+    "heading": "Варианты упаковки",
+    "packaging_options_0_image": 534,
+    "packaging_options_0_title": "",
+    "packaging_options_0_description": "",
+    "packaging_options_1_image": 535,
+    "packaging_options_2_image": 532,
+    "packaging_options_3_image": 533
+}} /-->
+<!-- wp:acf/container {"name":"acf/container","data":{
+    "field_container_badge":"Контейнеры",
+    "field_container_heading":"Варианты контейнеров",
+    "field_container_options":{
+        "68ba0fef23241":{
+            "field_container_option_image":"3577",
+            "field_container_option_title":"Контейнер 20 футов",
+            "field_container_option_description":"Компактный и универсальный, подходит для транспортировки различных грузов"},
+        "68ba0fd123240":{
+            "field_container_option_image":"3576",
+            "field_container_option_title":"Контейнер 40 футов",
+            "field_container_option_description":"Увеличенная вместимость для перевозки большого объема товаров на дальние расстояния."},
+        "row-0":{
+            "field_container_option_image":"3578",
+            "field_container_option_title":"Контейнер 40 футов High Cube",
+            "field_container_option_description":"Высокий вариант контейнера обеспечивает дополнительное пространство для объемных грузов."}
+        }
+}} /-->
+<!-- wp:acf/price {"name":"acf/price","data":{
+    "badge": "Прайс-лист",
+    "heading": "Доставка из Китая цены",
+    "delivery_options_0_title": "blocks.price.delivery_options_0_title":"Авиадоставка",
+"blocks.price.delivery_options_1_title":"Морская доставка",
+"blocks.price.delivery_options_2_title":"Железнодорожная доставка",
+"sections":3,
+    "delivery_options_0_description": "blocks.price.delivery_options_0_description":"Быстрая доставка за 7-14 дней. Преимущества: быстрая перевозка, высокая надежность. Недостатки: более высокая цена, минимальный вес 10 кг.",
+"blocks.price.delivery_options_1_description":"Экономичный способ доставки за 40-55 дней. Преимущества: низкая цена, подходит для больших объемов. Недостатки: долгий срок доставки, минимум 50 кг.",
+"blocks.price.delivery_options_2_description":"Доставка в среднем за 15-20 дней. Преимущества: баланс между стоимостью и сроками, надежность. Недостатки: доступна не для всех типов грузов, стоимость может варьироваться, подробнее уточняйте у менеджера.",
+"sections":3,
+    "delivery_options_0_price": "blocks.price.delivery_options_0_price":"от $15/кг",
+"blocks.price.delivery_options_1_price":"от $2,2/кг",
+"blocks.price.delivery_options_2_price":"от $8/кг",
+"sections":3
+}} /-->
+<!-- wp:acf/docs-text {"name":"acf/docs-text","data":{
+    "heading": "Документы для перевозки",
+    "documents_list": "<ul><li>Коммерческий инвойс</li><li>Упаковочный лист</li><li>Договор перевозки</li><li>Сертификаты соответствия и разрешения на экспорт/импорт</li></ul>",
+    "document_images_0_document_image": 539,
+    "document_images_0_document_alt": "Документ на перевозку",
+    "document_images_1_document_image": 540,
+    "document_images_1_document_alt": "Документ на перевозку",
+    "document_images_2_document_image": 541,
+    "document_images_2_document_alt": "Документ на перевозку",
+    "document_images_3_document_image": 542,
+    "document_images_3_document_alt": "Документ на перевозку",
+    "document_images":4,
+    "_document_images":"field_68489bb482b7f"
+}} /-->
+<!-- wp:acf/what-in-price {"name":"acf/what-in-price","data":{
+    "heading": "",
+    "description": "",
+    "list_title": "",
+    "services_list": ""
+}} /-->
+<!-- wp:acf/simple-image {"name":"acf/simple-image","data":{
+    "field_simple_image": 543,
+    "field_simple_image_height":"350"
+}} /-->
+<!-- wp:acf/coop-state {"name":"acf/coop-state","data":{
+    "field_cooperation_heading": "Этапы работы",
+    "sections_0_section_title": "blocks.coop_state.sections_0_title":"Заявка и расчет",
+"blocks.coop_state.sections_1_title":"Организация выполнения и доставка",
+"sections":2,
+    "sections_0_section_items": "blocks.coop_state.sections_0_items":"<ul><li>Заполните форму заявки на сайте или свяжитесь с менеджером по телефону.</li><li>Предоставьте подробную информацию о грузе: вес, габариты, тип товара, требуемые сроки.</li><li>Получите предварительный расчет стоимости и сроков доставки.</li><li>Обсудите условия сотрудничества и подтвердите заказ.</li></ul>",
+"blocks.coop_state.sections_1_items":"<ul><li>Оформите необходимые документы и договор.</li><li>Передайте груз в пункт отправления или организуйте его транспортировку.</li><li>Следите за статусом доставки через личный кабинет или по контактам менеджера.</li><li>По прибытии груза получите его и проведите финальную проверку.</li></ul>",
+"sections":2,
+    "sections":2,
+    "_sections":"field_cooperation_sections"
+}} /-->
+
+----- POST ID: 2695 -----
+<!-- wp:acf/calculator {"name":"acf/calculator"} /-->
+<!-- wp:acf/package {"name":"acf/package","data":{
+    "badge": "Упаковка",
+    "heading": "Варианты упаковки",
+    "packaging_options_0_image": 534,
+    "packaging_options_0_title": "",
+    "packaging_options_0_description": "",
+    "packaging_options_1_image": 535,
+    "packaging_options_2_image": 532,
+    "packaging_options_3_image": 533
+}} /-->
+<!-- wp:acf/container {"name":"acf/container","data":{
+    "field_container_badge":"Контейнеры",
+    "field_container_heading":"Варианты контейнеров",
+    "field_container_options":{
+        "68ba0fef23241":{
+            "field_container_option_image":"3577",
+            "field_container_option_title":"Контейнер 20 футов",
+            "field_container_option_description":"Компактный и универсальный, подходит для транспортировки различных грузов"},
+        "68ba0fd123240":{
+            "field_container_option_image":"3576",
+            "field_container_option_title":"Контейнер 40 футов",
+            "field_container_option_description":"Увеличенная вместимость для перевозки большого объема товаров на дальние расстояния."},
+        "row-0":{
+            "field_container_option_image":"3578",
+            "field_container_option_title":"Контейнер 40 футов High Cube",
+            "field_container_option_description":"Высокий вариант контейнера обеспечивает дополнительное пространство для объемных грузов."}
+        }
+}} /-->
+<!-- wp:acf/price {"name":"acf/price","data":{
+    "badge": "Прайс-лист",
+    "heading": "Доставка из Китая цены",
+    "delivery_options_0_title": "price.delivery_options_0_title":"Авиадоставка",
+"price.delivery_options_1_title":"Морская доставка",
+"price.delivery_options_2_title":"Железнодорожная доставка",
+"price.delivery_options":3,
+    "delivery_options_0_description": "price.delivery_options_0_description":"Быстрая доставка за 7-14 дней. Преимущества: быстрая перевозка, высокая надежность. Недостатки: более высокая цена, минимальный вес 10 кг.",
+"price.delivery_options_1_description":"Экономичный способ доставки за 40-55 дней. Преимущества: низкая цена, подходит для больших объемов. Недостатки: долгий срок доставки, минимум 50 кг.",
+"price.delivery_options_2_description":"Доставка в среднем за 15-20 дней. Преимущества: баланс между стоимостью и сроками, надежность. Недостатки: доступна не для всех типов грузов, стоимость может варьироваться, подробнее уточняйте у менеджера.",
+"price.delivery_options":3,
+    "delivery_options_0_price": "price.delivery_options_0_price":"от $15/кг",
+"price.delivery_options_1_price":"от $2,2/кг",
+"price.delivery_options_2_price":"от $8/кг",
+"price.delivery_options":3
+}} /-->
+<!-- wp:acf/docs-text {"name":"acf/docs-text","data":{
+    "heading": "Документы для перевозки",
+    "documents_list": "<ul><li>Коммерческий инвойс</li><li>Упаковочный лист</li><li>Договор перевозки</li><li>Сертификаты соответствия и разрешения на экспорт/импорт</li></ul>",
+    "document_images_0_document_image": 539,
+    "document_images_0_document_alt": "Документ на перевозку",
+    "document_images_1_document_image": 540,
+    "document_images_1_document_alt": "Документ на перевозку",
+    "document_images_2_document_image": 541,
+    "document_images_2_document_alt": "Документ на перевозку",
+    "document_images_3_document_image": 542,
+    "document_images_3_document_alt": "Документ на перевозку",
+    "document_images":4,
+    "_document_images":"field_68489bb482b7f"
+}} /-->
+<!-- wp:acf/what-in-price {"name":"acf/what-in-price","data":{
+    "heading": "",
+    "description": "",
+    "list_title": "",
+    "services_list": ""
+}} /-->
+<!-- wp:acf/simple-image {"name":"acf/simple-image","data":{
+    "field_simple_image": 543,
+    "field_simple_image_height":"350"
+}} /-->
+<!-- wp:acf/coop-state {"name":"acf/coop-state","data":{
+    "field_cooperation_heading": "Этапы работы",
+    "sections_0_section_title": "sections_0_section_title":"Заявка и расчет",
+"sections_1_section_title":"Организация выполнения и доставка",
+"sections":2,
+    "sections_0_section_items": "sections_0_section_items":"<ul><li>Заполните форму заявки на сайте или свяжитесь с менеджером по телефону.</li><li>Предоставьте подробную информацию о грузе: вес, габариты, тип товара, требуемые сроки.</li><li>Получите предварительный расчет стоимости и сроков доставки.</li><li>Обсудите условия сотрудничества и подтвердите заказ.</li></ul>",
+"sections_1_section_items":"<ul><li>Оформите необходимые документы и договор.</li><li>Передайте груз в пункт отправления или организуйте его транспортировку.</li><li>Следите за статусом доставки через личный кабинет или по контактам менеджера.</li><li>По прибытии груза получите его и проведите финальную проверку.</li></ul>",
+"sections":2,
+    "sections":2,
+    "_sections":"field_cooperation_sections"
+}} /-->
+

@@ -1,0 +1,85 @@
+# Блок с калькулятором | НЕ ИЗМЕНЯЕМ
+<!-- wp:acf/calculator {"name":"acf/calculator"} /-->
+
+# Варианты упаковки | НЕ ИЗМЕНЯЕМ
+<!-- wp:acf/package {"name":"acf/package","data":{
+    "badge": "Упаковка",
+    "heading": "Варианты упаковки",
+    "packaging_options_0_image": 534,
+    "packaging_options_0_title": {{blocks.package.packaging_options.title}},
+    "packaging_options_0_description": {{blocks.package.packaging_options.description}},
+    "packaging_options_1_image": 535,
+    "packaging_options_2_image": 532,
+    "packaging_options_3_image": 533
+}} /-->
+
+# Варианты контейнеров | НЕ ИЗМЕНЯЕМ
+<!-- wp:acf/container {"name":"acf/container","data":{
+    "field_container_badge":"Контейнеры",
+    "field_container_heading":"Варианты контейнеров",
+    "field_container_options":{
+        "68ba0fef23241":{
+            "field_container_option_image":"3577",
+            "field_container_option_title":"Контейнер 20 футов",
+            "field_container_option_description":"Компактный и универсальный, подходит для транспортировки различных грузов"},
+        "68ba0fd123240":{
+            "field_container_option_image":"3576",
+            "field_container_option_title":"Контейнер 40 футов",
+            "field_container_option_description":"Увеличенная вместимость для перевозки большого объема товаров на дальние расстояния."},
+        "row-0":{
+            "field_container_option_image":"3578",
+            "field_container_option_title":"Контейнер 40 футов High Cube",
+            "field_container_option_description":"Высокий вариант контейнера обеспечивает дополнительное пространство для объемных грузов."}
+        }
+}} /-->
+
+
+# Прайс-лист | ПОДСТАНОВКА ЗНАЧЕНИЙ ИЗ CSV
+<!-- wp:acf/price {"name":"acf/price","data":{
+    "badge": {{blocks.price.badge}},
+    "heading": {{blocks.price.heading}},
+    "delivery_options_0_title": {{blocks.price.delivery_options.item.title}},
+    "delivery_options_0_description": {{blocks.price.delivery_options.item.description}},
+    "delivery_options_0_price": {{blocks.price.delivery_options.item.price}}
+}} /-->
+
+# Документы для перевозки | ПОДСТАНОВКА ЗНАЧЕНИЙ ИЗ CSV
+<!-- wp:acf/docs-text {"name":"acf/docs-text","data":{
+    "heading": {{blocks.docs.heading}},
+    "documents_list": {{blocks.docs.documents_list}},
+    "document_images_0_document_image": 539,
+    "document_images_0_document_alt": "Документ на перевозку",
+    "document_images_1_document_image": 540,
+    "document_images_1_document_alt": "Документ на перевозку",
+    "document_images_2_document_image": 541,
+    "document_images_2_document_alt": "Документ на перевозку",
+    "document_images_3_document_image": 542,
+    "document_images_3_document_alt": "Документ на перевозку",
+    "document_images":4,
+    "_document_images":"field_68489bb482b7f"
+}} /-->
+
+
+# Что входит в стоимость | ПОДСТАНОВКА ЗНАЧЕНИЙ ИЗ CSV
+<!-- wp:acf/what-in-price {"name":"acf/what-in-price","data":{
+    "heading": {{blocks.what_in_price.heading}},
+    "description": {{blocks.what_in_price.description}},
+    "list_title": {{blocks.what_in_price.list_title}},
+    "services_list": {{blocks.what_in_price.services_list}}
+}} /-->
+
+
+# Простое изображение | НЕ ИЗМЕНЯЕМ
+<!-- wp:acf/simple-image {"name":"acf/simple-image","data":{
+    "field_simple_image": 543,
+    "field_simple_image_height":"350"
+}} /-->
+
+# Этапы работы | ПОДСТАНОВКА ЗНАЧЕНИЙ ИЗ CSV
+<!-- wp:acf/coop-state {"name":"acf/coop-state","data":{
+    "field_cooperation_heading": {{blocks.coop_state.heading}},
+    "sections_0_section_title": {{blocks.coop_state.sections.item.title}},
+    "sections_0_section_items": {{blocks.coop_state.sections.item.items}},
+    "sections":2,
+    "_sections":"field_cooperation_sections"
+}} /-->

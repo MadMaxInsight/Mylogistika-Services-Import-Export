@@ -1,0 +1,64 @@
+<?
+
+require_once( dirname(__FILE__, 5) . '/wp-load.php' ); // Подключаем WordPress
+global $wpdb;
+
+require_once( __DIR__ . '/render_acf_blocks_logic.php' );
+
+$log_file = __DIR__ . '/import_log.txt';
+$csv_file = __DIR__ . "/services_import.csv";
+if (!file_exists($csv_file)) die("❌ Нет файла $csv_file\n");
+
+
+if (($handle = fopen($csv_file, "r")) !== FALSE) {
+    $header = fgetcsv($handle, 0, ","); // читаем заголовки
+    while (($row = fgetcsv($handle, 0, ",")) !== FALSE) {
+        $row = array_combine($header, $row);
+        $post_id = intval($row['ID']);
+        if ($post_id <= 0) continue;
+
+        // собираем контент
+        $content = '';
+        $content .= render_acf_block("package", $row, "blocks.package.", $field_map);
+        $content .= render_acf_block("price", $row, "blocks.price.", $field_map);
+        $content .= render_acf_block("docs-text", $row, "blocks.docs.", $field_map);
+        $content .= render_acf_block("what-in-price", $row, "blocks.what_in_price.what_in_price.", $field_map);
+        $content .= render_acf_block("coop-state", $row, "blocks.coop_state.", $field_map);
+        $content .= render_acf_block("routes", $row, "blocks.routes.", $field_map);
+        $content .= render_acf_block("faq", $row, "blocks.faq.", $field_map);
+        $content .= render_acf_block("end-block", $row, "blocks.end_block.", $field_map);
+        $content .= render_acf_block("end-block", $row, "blocks.end_block.end_block.", $field_map);
+
+        // логируем ID и сгенерированный контент
+        file_put_contents(
+            $log_file,
+            "----- POST ID: {$post_id} -----\n" . $content . "\n\n",
+            FILE_APPEND | LOCK_EX
+        );
+
+        // обновляем пост
+        wp_update_post([
+            'ID'           => $post_id,
+            'post_content' => $content
+        ]);
+
+        // обновляем Yoast SEO
+        if (!empty($row['_yoast_wpseo_title'])) {
+            update_post_meta($post_id, '_yoast_wpseo_title', $row['_yoast_wpseo_title']);
+        }
+        if (!empty($row['_yoast_wpseo_metadesc'])) {
+            update_post_meta($post_id, '_yoast_wpseo_metadesc', $row['_yoast_wpseo_metadesc']);
+        }
+
+        // обновляем slug (если указан)
+        if (!empty($row['Slug'])) {
+            wp_update_post([
+                'ID'        => $post_id,
+                'post_name' => sanitize_title($row['Slug'])
+            ]);
+        }
+
+        echo "✅ Пост {$post_id} обновлён\n";
+    }
+    fclose($handle);
+}
