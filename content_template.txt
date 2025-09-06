@@ -19,15 +19,15 @@
     "field_container_heading":"Варианты контейнеров",
     "field_container_options":{
         "68ba0fef23241":{
-            "field_container_option_image":"3577",
+            "field_container_option_image":3577,
             "field_container_option_title":"Контейнер 20 футов",
             "field_container_option_description":"Компактный и универсальный, подходит для транспортировки различных грузов"},
         "68ba0fd123240":{
-            "field_container_option_image":"3576",
+            "field_container_option_image":3576,
             "field_container_option_title":"Контейнер 40 футов",
             "field_container_option_description":"Увеличенная вместимость для перевозки большого объема товаров на дальние расстояния."},
         "row-0":{
-            "field_container_option_image":"3578",
+            "field_container_option_image":3578,
             "field_container_option_title":"Контейнер 40 футов High Cube",
             "field_container_option_description":"Высокий вариант контейнера обеспечивает дополнительное пространство для объемных грузов."}
         }
@@ -77,9 +77,97 @@
 
 # Этапы работы | ПОДСТАНОВКА ЗНАЧЕНИЙ ИЗ CSV
 <!-- wp:acf/coop-state {"name":"acf/coop-state","data":{
+    "heading":"Этапы работы",
+    "_heading":"field_cooperation_heading",
     "field_cooperation_heading": {{blocks.coop_state.heading}},
     "sections_0_section_title": {{blocks.coop_state.sections.item.title}},
+    "_sections_0_section_title": "field_cooperation_section_title",
     "sections_0_section_items": {{blocks.coop_state.sections.item.items}},
+    "_sections_0_section_items": "field_cooperation_section_items",
     "sections":2,
     "_sections":"field_cooperation_sections"
+}} /-->
+
+
+# Маршруты | ПОДСТАНОВКА ЗНАЧЕНИЙ ИЗ CSV
+<!-- wp:acf/routes {"name":"acf/routes","data":{
+    "badge": {{blocks.routes.badge}},
+    "heading": {{blocks.routes.heading}},
+    "map_image": 831,
+    "_map_image": "field_routes_map_image",
+    "air_route_title": {{blocks.routes.routes.air.title}},
+    "air_route_description": {{blocks.routes.routes.air.description}},
+    "rail_route_title": {{blocks.routes.routes.rail.title}},
+    "rail_route_description": {{blocks.routes.routes.rail.description}},
+    "sea_route_title": {{blocks.routes.routes.sea.title}},
+    "sea_route_description": {{blocks.routes.routes.sea.description}},
+    "auto_route_title": {{blocks.routes.routes.auto.title}},
+    "auto_route_description": {{blocks.routes.routes.auto.description}},
+    "_air_route_title": "field_routes_air_title",
+    "_air_route_description": "field_routes_air_description",
+    "_air_route": "field_routes_air",
+    "_rail_route_title": "field_routes_rail_title",
+    "_rail_route_description": "field_routes_rail_description",
+    "_rail_route": "field_routes_rail",
+    "_sea_route_title": "field_routes_sea_title",
+    "_sea_route_description": "field_routes_sea_description",
+    "_sea_route": "field_routes_sea",
+    "_auto_route_title": "field_routes_auto_title",
+    "_auto_route_description": "field_routes_auto_description",
+    "_auto_route": "field_routes_auto"
+}} /-->
+
+
+# Наши работы | НЕ ИЗМЕНЯЕМ | ПОКА ОТКЛЮЧИМ
+# <!-- wp:acf/delivery-cases-block {"name":"acf/delivery-cases-block","mode":"preview"} /-->
+
+
+# Специалисты | НЕ ИЗМЕНЯЕМ | ПОКА ОТКЛЮЧИМ
+#<!-- wp:acf/specialists-list {"name":"acf/specialists-list","data":{"posts_per_page":"6","_posts_per_page":"field_67e0237558d8f","badge":"Наша команда","_badge":"field_67e025c5863a6","title":"Наша команда специалистов","_title":"field_67e025d0863a7"},"mode":"preview"} /-->
+
+
+# Отзывы | НЕ ИЗМЕНЯЕМ
+<!-- wp:acf/reviews {"name":"acf/reviews","data":{
+    "review_about":["566"],
+    "_review_about":"field_67eec86b56746"
+}} /-->
+
+
+# Блок подуслуг | НЕ ИЗМЕНЯЕМ
+<!-- wp:acf/post-taxonomy-children {"name":"acf/post-taxonomy-children"} /-->
+
+
+# Блок FAQ | ПОДСТАНОВКА ЗНАЧЕНИЙ ИЗ CSV
+<!-- wp:acf/faq {"name":"acf/faq","data":{
+    "faq_0_question": {{blocks.faq.faq.item.question}},
+    "_faq_0_question": "field_680608682e5d1",
+    "faq_0_answer": {{blocks.faq.faq.item.answer}},
+    "_faq_0_answer": "field_6806087b2e5d2",
+    #"faq":{{4}},
+    "_faq":"field_680608882e5d3"
+}} /-->
+
+
+# Блок Разрешающие документы | НЕ ИЗМЕНЯЕМ
+<!-- wp:acf/documents {"name":"acf/documents","data":{"title":"Разрешающие документы","_title":"field_67e058f0172e6","documents_0_document_name":"Лицензия на транспортные перевозки","_documents_0_document_name":"field_67e05a3395e5c","documents_0_document":476,"_documents_0_document":"field_67e0597ec84ba","documents_1_document_name":"Свидетельство о регистрации компании","_documents_1_document_name":"field_67e05a3395e5c","documents_1_document":477,"_documents_1_document":"field_67e0597ec84ba","documents_2_document_name":"Разрешение на таможенную деятельность","_documents_2_document_name":"field_67e05a3395e5c","documents_2_document":475,"_documents_2_document":"field_67e0597ec84ba","documents":3,"_documents":"field_67e0596cc84b9"},"mode":"preview"} /-->
+
+
+# Простое изображение | НЕ ИЗМЕНЯЕМ
+<!-- wp:acf/simple-image {"name":"acf/simple-image","data":{
+    "field_simple_image": 527,
+    "field_simple_image_height":"350"
+}} /-->
+
+# Завершающий блок с текстом | ПОДСТАНОВКА ЗНАЧЕНИЙ ИЗ CSV
+<!-- wp:acf/end-block {"name":"acf/end-block","data":{
+    "badge": {{blocks.end_block.badge}},
+    "_badge": "field_order_delivery_badge",
+    "heading": {{blocks.end_block.heading}},
+    "_heading": "field_order_delivery_heading",
+    "description": {{blocks.end_block.description}},
+    "_description": "field_order_delivery_description",
+    "list_heading": {{blocks.end_block.list_heading}},
+    "_list_heading": "field_order_delivery_list_heading",
+    "challenges_list": {{blocks.end_block.challenges_list}},
+    "_challenges_list": "field_order_delivery_challenges_list"
 }} /-->
